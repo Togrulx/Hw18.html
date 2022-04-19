@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#0e23e2), color-stop(#ac02a7), color-stop(#e20e20), to(#dc4319));
+  background: linear-gradient(to right, #0e23e2, #ac02a7, #e20e20, #dc4319);
+}
+
+.container {
+  max-width: 350px;
+}
+
+.container section input[type=text],
+.container section input[type=text]:focus {
+  color: #fff !important;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.container .todolist li {
+  background: transparent;
+  color: #fff;
+}
+
+.container .delete {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

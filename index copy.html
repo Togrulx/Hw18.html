@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon"
+        href="https://scontent.fgyd4-3.fna.fbcdn.net/v/t1.6435-1/131520296_2448930828749837_6310723434666358800_n.jpg?stp=dst-jpg_p720x720&_nc_cat=111&ccb=1-5&_nc_sid=1eb0c7&_nc_ohc=xgsA2iqvQNkAX_Q0I-_&_nc_ht=scontent.fgyd4-3.fna&oh=00_AT9xj_2GjWheNYG-jkPSYf1WwOHRz_leQyCsUyjyLmPmtA&oe=628171A5">
+    <title>Form-Validation</title>
+
+</head>
+
+<body>
+    <section>
+        <form class="form-father position-absolute" id="forms" onkeyup="ControlForm('forms')">
+
+            
+            <div class="input  d-flex justify-content-between">
+                <label for="">UserName</label>
+                <input id="username" type="text" minlength="6" required> <i class="fa-solid fa-circle-exclamation"></i>
+            </div>
+            
+    
+            
+            <div class="input d-flex justify-content-between">
+                <label for="">Email</label>
+                <input id="email"  type="email" required> <i id="icons" class="fa-solid fa-circle-exclamation"></i>
+            </div>
+    
+            
+            <div class="input d-flex justify-content-between">
+                <label for="">Password</label>
+                <input id="password" type="password" minlength="6" required> <i id="iconsps" title="Minimum 6 Simvol Olmalidir" class="fa-solid fa-circle-exclamation"></i>
+            </div>
+    
+            
+            <div class="input d-flex justify-content-between">
+                <label for="">Password Check</label>
+                <input id="passwordcdin" type="password" minlength="6" required> <i id="iconsps" title="Minimum 6 Simvol Olmalidir" class="fa-solid fa-circle-exclamation"></i>
+            </div>
+
+            <div id="error" class="d-none"></div>
+    
+           
+    
+    
+            <button type="submit" >SUBMIT</button>
+    
+        </form>
+    </section>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

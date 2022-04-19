@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #0e23e2, #ac02a7, #e20e20, #dc4319);;
+}
+  
+.container {
+    max-width: 350px;
+
+section input[type=text],
+section input[type=text]:focus {
+    color: #fff !important;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+.todolist li {
+    background: transparent;
+    color: #fff;
+}
+.delete {
+    cursor: pointer;
+}
+
+}
+  
+
+
+  
